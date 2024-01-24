@@ -7,26 +7,26 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.05em;
 	font-size: 16px;
-	background-color: #303841;
-	color: #d8dee9;
+	background-color: #e9e1cd;
+	color: #000000;
 }
 h1,h2,h3,p,ol,ul,li,a {
 	font-family: sans-serif;
 }
 h1,h2,h3 {
 	font-family: sans-serif;
-	color: #EDEDED;
+	color: #000000;
 }
 h2 {
 	font-size: 1.3em;
 }
 a {
 	font-weight: bold;
-	color: #EDEDED;
+	color: #906767;
 	transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
 a:hover {
-	color: #848b95;
+	color: #000000;
 }
 code, pre {
 	background-color: #22262a;
@@ -56,6 +56,35 @@ p.copyright {
     text-align: center;
     color: #333333;
 }
+
+.Button--Main {
+	background-color:rgb(235, 190, 54); 
+	border: 3px solid black; 
+	border-radius:60px; 
+	padding:2rem 15rem; 
+	font-size:24px; 
+	font-weight:800;
+}
+
+.Button--Minor {}
+
+.Logo {
+	color:black; 
+	font-size: 48px;
+}
+
+.Menu-Item {
+	color:black; 
+	font-weight:400;
+}
+
+.Menu-Item--Icon {}
+
+.Icon--Clickable {}
+
+.Subhead {}
+
+.CTA--Hero {}
 
 /* Breakpoint */
 @media screen and (max-width: 700px) {
