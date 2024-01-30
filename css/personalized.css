@@ -7,7 +7,7 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.05em;
 	font-size: 16px;
-	background-color: #e9e1cd;
+	background-color: #fcc3c3;
 	color: #000000;
 }
 
@@ -85,7 +85,7 @@ p.copyright {
 
 .Button--Main,
 .Button--Minor {
-	background-color: rgb(235, 190, 54);
+	background-color: rgb(174, 213, 173);
 	border: 3px solid black;
 	border-radius: 60px;
 	padding: 1.5rem 8rem;
@@ -94,7 +94,7 @@ p.copyright {
 }
 
 .Button--Minor {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(231, 150, 150);
 }
 
 .Logo {
@@ -158,39 +158,6 @@ a:active {
 
 .Heading--3 {
 	color: #606060;
-}
-
-/******* MOLECULES *******/
-
-.CTA--Hero {
-	width: 600px;
-}
-
-.ProductFeature {
-	width: 550px;
-	padding-right: 3rem;
-}
-
-.NavBar--Left {
-	list-style: none;
-	display: flex;
-	gap: 2rem;
-}
-
-.NavBar--Left li h2 {
-	padding-top: 43px;
-}
-
-.CTA--Catering--Img {
-	background-image:url(https://images.ctfassets.net/kugm9fp9ib18/6OyTwF0Mrx4H2xHCQYjgjf/fe88aa0d64e85f1582384ff6bebd95bc/homepage_cta-blocks1_cava-catering_220606_web.jpg?fm=avif&w=1408&h=1408&fit=fill&q=75);
-	padding:3rem;
-	object-fit: contain;
-}
-
-.CTA--Catering {
-	background-color:antiquewhite;
-	padding:2rem;
-	text-align: center;
 }
 
 /* Breakpoint */
